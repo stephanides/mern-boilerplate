@@ -54,9 +54,7 @@ const MyApp = (props) => {
       <ThemeProvider theme={theme}>
         <ApolloProvider client={apollo}>
           <Style />
-          {/*Production: 6LcS98QZAAAAAG6FfstRw_BF7BwFknxp-e-0Ra6-*/}
-          {/*Local: 6LfgFeEZAAAAAD2fNYXGUjpI_Yu1c65XODYxgoyY*/}
-          <GoogleReCaptchaProvider reCaptchaKey="6LcS98QZAAAAAG6FfstRw_BF7BwFknxp-e-0Ra6-">
+          <GoogleReCaptchaProvider reCaptchaKey="">
             <Component {...pageProps} />
           </GoogleReCaptchaProvider>
         </ApolloProvider>
